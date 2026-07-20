@@ -47,7 +47,7 @@ Bu projeyi, HTML, SCSS ve JavaScript bilgimi geliştirmek amacıyla hazırladım
 
 ## 📸 Proje Görselleri
 
-![](jbl.gif)
+<img width="1498" height="720" alt="Image" src="https://github.com/user-attachments/assets/c17ed390-d864-4b6b-8053-52a2cb61889d" />
 
 ## 📌 Not
 
