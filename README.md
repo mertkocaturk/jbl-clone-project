@@ -47,7 +47,7 @@ Bu projeyi, HTML, SCSS ve JavaScript bilgimi geliştirmek amacıyla hazırladım
 
 ## 📸 Proje Görselleri
 
-![](/jbl.gif)
+![](jbl.gif)
 
 ## 📌 Not
 
