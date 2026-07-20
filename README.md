@@ -48,7 +48,7 @@ Bu projeyi, HTML, SCSS ve JavaScript bilgimi geliştirmek amacıyla hazırladım
 ## 📸 Proje Görselleri
 
 ![](jbl.gif)
-C:\Users\User\Desktop\13-hi-sass\2-)projects\2-)jbl-clone\jbl.gif
+
 ## 📌 Not
 
 Bu proje tamamen eğitim amaçlı geliştirilmiştir. Tasarım, JBL markasından ilham alınarak hazırlanmış olup ticari bir amacı bulunmamaktadır.
