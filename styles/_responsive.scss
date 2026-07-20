@@ -1,0 +1,129 @@
+@media (max-width: 800px) {
+  .nav-list {
+    display: none !important;
+  }
+
+  #menu-btn {
+    display: flex !important;
+  }
+
+  .nav-list.open {
+    background-color: $body-color !important;
+    display: flex !important;
+    flex-direction: column;
+    position: fixed;
+    top: 100%;
+    right: 8%;
+    padding: 20px;
+    box-shadow: 2px 2px 10px white;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .home-left-social {
+    margin-top: 100px;
+  }
+
+  .footer-form {
+    flex-direction: column;
+  }
+
+  header {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 0 0 16px 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.1px);
+    -webkit-backdrop-filter: blur(12.1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+
+@media (max-width: 600px) {
+  .favorites-container {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .home {
+    &-center {
+      &-image {
+        width: 320px !important;
+      }
+
+      &-title {
+        font-size: 256px !important;
+        top: -80px !important;
+      }
+    }
+    &-left {
+      span {
+        font-size: $normal-font-size !important;
+        &::after {
+          width: 60px !important;
+          left: 80px;
+        }
+      }
+      &-social {
+        a {
+          font-size: 25px !important;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1150px) {
+  //Home
+  .home {
+    &-center {
+      &-image {
+        width: 400px !important;
+      }
+
+      &-title {
+        font-size: 300px !important;
+        top: -80px !important;
+      }
+    }
+  }
+  //Model
+  .model {
+    &-image {
+      width: 600px !important;
+    }
+
+    &-tooltip {
+      &-text {
+        font-size: $normal-font-size !important;
+      }
+      &-1 {
+        top: 250px !important;
+        left: 180px !important;
+      }
+      &-2 {
+        top: 90px !important;
+        left: 450px !important;
+      }
+      &-3 {
+        bottom: 100px !important;
+        left: 115px !important;
+      }
+      &-4 {
+        bottom: 200px !important;
+        left: 100px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+    &-data {
+      max-width: unset !important;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 30px;
+  z-index: 100;
+  nav {
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    //Logo
+    .logo {
+      font-weight: $font-semi-bold;
+      color: $first-color;
+      font-size: $h1-font-size;
+    }
+
+    //Nav List
+    .nav-list {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      a {
+        color: $white-color;
+        font-weight: $font-medium;
+        transition: all 0.4s;
+        &:hover {
+          color: $first-color;
+        }
+      }
+    }
+    #menu-btn {
+      background: transparent;
+      color: $white-color;
+      font-size: 20px;
+      cursor: pointer;
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+  &-data {
+    max-width: 400px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &-image {
+    width: 400px;
+    img {
+      width: 280px;
+    }
+  }
+}
